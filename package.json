@@ -1,0 +1,40 @@
+{
+  "name": "react-app",
+  "description": "React App",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "prop-types": "^15.6.0",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "babel-loader": "^7.1.2",
+    "style-loader": "^0.20.2",
+    "css-loader": "^0.28.9",
+    "postcss-loader": "^2.1.0",
+    "autoprefixer": "^8.0.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "babel-eslint": "^8.2.1",
+    "jest": "^22.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.babel.js",
+    "lint": "eslint src --ext .js,.jsx",
+    "test": "jest"
+  }
+}
